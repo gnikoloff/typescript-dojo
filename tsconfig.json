@@ -3,7 +3,11 @@
     "app"
   ],
   "compilerOptions": {
+    "strict": true,
+    "noImplicitAny": true,
     "target": "ES2017",
-    "outDir": "lib"
+    "outDir": "lib",
+    "declaration": true,
+    "sourceMap": true
   }
 }
