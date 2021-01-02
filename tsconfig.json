@@ -1,1 +1,9 @@
-{}
+{
+  "include": [
+    "app"
+  ],
+  "compilerOptions": {
+    "target": "ES2017",
+    "outDir": "lib"
+  }
+}
