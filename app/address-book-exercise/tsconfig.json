@@ -3,11 +3,11 @@
     "index.ts"
   ],
   "compilerOptions": {
-    "strict": true,
+    "allowJs": true,
+    "checkJs": true,
     "noImplicitAny": true,
-    "target": "ES2017",
-    "outDir": "build",
-    "declaration": true,
-    "sourceMap": true
+    "strict": true,
+    "strictFunctionTypes": true,
+    "strictNullChecks": true
   }
 }
