@@ -1,0 +1,13 @@
+{
+  "include": [
+    "index.ts"
+  ],
+  "compilerOptions": {
+    "strict": true,
+    "noImplicitAny": true,
+    "target": "ES2017",
+    "outDir": "build",
+    "declaration": true,
+    "sourceMap": true
+  }
+}
